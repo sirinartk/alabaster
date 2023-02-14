@@ -10,3 +10,5 @@ flake8==3.6.0
 # Install ourselves direct, even when being used on eg RTD. Otherwise we can't
 # dogfood our own changes until release to PyPI.
 -e .
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
